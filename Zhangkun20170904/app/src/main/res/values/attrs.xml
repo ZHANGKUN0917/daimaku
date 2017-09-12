@@ -3,6 +3,6 @@
     <declare-styleable name="CustomCircle">
         <attr name="width" format="dimension"></attr>
         <attr name="spped" format="integer"></attr>
-        <attr name="viewcolor" format="reference|color"></attr>
+        <attr name="viewcolor" format="color"></attr>
     </declare-styleable>
 </resources>

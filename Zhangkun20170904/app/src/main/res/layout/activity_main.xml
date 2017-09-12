@@ -4,10 +4,30 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+   <Button
+       android:id="@+id/b"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="改变颜色"
+       />
+   <Button
+       android:id="@+id/b1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="加速"
+       />
+   <Button
+       android:id="@+id/b2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="减速"
+       />
    <com.bwie.hp.zhangkun20170904.CustomCircle
+       android:id="@+id/cc"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        app:viewcolor="#ff00ff"
+       app:width="30dp"
 
        />
 </LinearLayout>

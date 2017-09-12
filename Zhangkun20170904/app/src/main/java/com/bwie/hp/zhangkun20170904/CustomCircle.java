@@ -5,7 +5,10 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -39,11 +42,14 @@ public class CustomCircle extends View {
         super(context, attrs, defStyleAttr);
         init(context,attrs);
     }
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     private void init(Context context, @Nullable AttributeSet attrs) {
         array1 = context.obtainStyledAttributes(attrs, R.styleable.CustomCircle);
         int color=array1.getColor(R.styleable.CustomCircle_viewcolor,Color.RED);
         int i = array1.getInt(R.styleable.CustomCircle_width, 20);
         int spped=array1.getInt(R.styleable.CustomCircle_spped,30);
+        setBackground(new ColorDrawable(color));
+
     }
 
     @Override
