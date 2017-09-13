@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="xlistview_header_content" type="id" />
+    <item name="xlistview_header_time" type="id" />
+    <item name="xlistview_footer_content" type="id" />
+    <item name="xlistview_footer_progressbar" type="id" />
+    <item name="xlistview_footer_hint_textview" type="id" />
+</resources>
