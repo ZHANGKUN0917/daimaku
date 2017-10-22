@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Jinritoutiao.iml" filepath="$PROJECT_DIR$/../Jinritoutiao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagelibrary.iml" filepath="$PROJECT_DIR$/imagelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../myxlistview/myxlistview.iml" filepath="$PROJECT_DIR$/../myxlistview/myxlistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pullToRefreshlibrary/pullToRefreshlibrary.iml" filepath="$PROJECT_DIR$/../pullToRefreshlibrary/pullToRefreshlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../slidingmenulibrary/slidingmenulibrary.iml" filepath="$PROJECT_DIR$/../slidingmenulibrary/slidingmenulibrary.iml" />
+    </modules>
+  </component>
+</project>
